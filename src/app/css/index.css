@@ -1,0 +1,82 @@
+@import url(./base/base.css);
+
+@import url(./components/component.css);
+@import url(./components/btn.css);
+@import url(./components/input.css);
+@import url(./components/Team/Team_details/reviewList.css);
+@import url(./components/Team/Team_details/teamDetails.css);
+@import url(./components/Team/Team_details/commentList.css);
+@import url(./components/Meeting/Review/reviewDetails.css);
+
+@tailwind utilities;
+
+/* ANIMATION CSS */
+.anim-delay-100 {
+    animation-delay: 0.1s;
+}
+.anim-delay-300 {
+    animation-delay: 0.3s;
+}
+.anim-delay-600 {
+    animation-delay: 0.6s;
+}
+
+
+.principalTitle{
+    @apply text-center m-5 text-black text-2xl font-semibold dark:text-white
+}
+.secondaryTitle{
+    @apply font-semibold text-base text-black dark:text-white
+}
+.textDefault{
+    @apply text-xs font-normal text-black dark:text-white
+}
+
+
+.pill-red{
+    @apply px-2 py-1 rounded-full text-xs
+    bg-red-100 
+    dark:bg-red-900
+
+    text-red-800 
+    dark:text-red-100    
+}
+.pill-green{
+    @apply px-2 py-1 rounded-full text-xs
+    bg-green-100 
+    dark:bg-green-900
+
+    text-green-800 
+    dark:text-green-100    
+}
+.pill-primary{
+    @apply px-2 py-1 rounded-full text-xs
+    bg-primary-lightest 
+    dark:bg-primary-dark
+
+    text-primary-darkest
+    dark:text-primary-lightest    
+}
+.pill-secondary{
+    @apply px-2 py-1 rounded-full text-xs
+    bg-secondary-lightest 
+    dark:bg-secondary-dark
+
+    text-secondary-darkest 
+    dark:text-secondary-lightest    
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D1D5DB;
+    border-radius: 8px;
+}

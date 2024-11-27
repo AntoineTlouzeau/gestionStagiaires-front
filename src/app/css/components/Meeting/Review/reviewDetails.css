@@ -1,0 +1,9 @@
+.reviewDetails .textDefault{
+    @apply text-base
+}
+.reviewDetails .presenceType p{
+    @apply mb-0.5
+}
+.reviewDetails .presenceType .pill{
+    @apply py-0.5
+}

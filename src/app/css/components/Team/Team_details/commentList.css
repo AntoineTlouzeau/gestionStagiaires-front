@@ -1,0 +1,12 @@
+.commentList{
+    @apply bg-white p-4 w-full dark:bg-background-dark rounded-xl mb-2 
+}
+.commentList .commentInfos{
+    @apply w-1/4
+}
+.commentList .commentInfos .textDefault{
+    @apply text-gray-600 dark:text-white
+}
+.commentList .comment{
+    @apply text-gray-600 dark:text-white w-3/4
+}

@@ -1,0 +1,9 @@
+.reviewList .reviewList-block{
+    @apply h-56 bg-white p-2 overflow-y-scroll dark:bg-background-dark 
+}
+.reviewList .presenceType p{
+    @apply mb-1
+}
+.reviewList .presenceType .pill{
+    @apply py-0
+}

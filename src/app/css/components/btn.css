@@ -1,0 +1,88 @@
+.btn {
+    @apply inline-flex h-min transform items-center justify-center whitespace-nowrap rounded-md
+    border border-transparent px-4 py-2 text-base font-bold shadow focus:outline-none
+    active:scale-95 active:ring-2 active:ring-white active:ring-offset-2;
+}
+
+.btn-small {
+    @apply px-2 py-1 text-sm;
+}
+
+.btn-link-primary {
+    @apply font-medium text-primary hover:text-primary-dark;
+}
+
+.btn-primary {
+    @apply 
+    bg-primary-light
+    dark:bg-primary-darker
+
+    text-white
+    dark:text-gray-200
+
+    hover:bg-primary-darker
+    dark:hover:bg-primary-darkest
+
+    hover:text-white
+    dark:hover:text-gray-400
+
+    active:ring-primary-light
+    ;
+}
+
+.btn-secondary {
+    @apply 
+    bg-secondary 
+    dark:bg-secondary-darker
+
+    text-white 
+    dark:text-gray-200
+    
+    hover:bg-secondary-dark 
+    dark:hover:bg-secondary-darkest
+
+    hover:text-white     
+    dark:hover:text-gray-400
+
+    active:ring-secondary-light;
+}
+
+.btn-form {
+    @apply bg-primary text-white hover:bg-primary-dark hover:text-white active:ring-primary-light w-20 h-8 rounded mx-0.5 my-1;
+}
+
+.btn-card{
+    @apply h-8 w-20 rounded inline-flex items-center justify-center hover:bg-red-500 hover:text-white active:ring-red-500 mx-0.5 my-1;
+}
+
+.btn-blue {
+    @apply bg-blue-600 text-white hover:bg-blue-700 hover:text-white active:ring-primary;
+}
+
+.btn-red {
+    @apply bg-red-600 text-white hover:bg-red-700 hover:text-white active:ring-red-500;
+}
+
+.btn-green {
+    @apply bg-green-600 text-white hover:bg-green-700 hover:text-white active:ring-green-500;
+}
+
+.btn-yellow {
+    @apply bg-yellow-500 text-white hover:bg-yellow-600 hover:text-white active:ring-yellow-500;
+}
+
+.btn-purple {
+    @apply bg-purple-600 text-white hover:bg-purple-700 hover:text-white active:ring-purple-500;
+}
+
+.btn-pink {
+    @apply bg-pink-600 text-white hover:bg-pink-700 hover:text-white active:ring-pink-500;
+}
+
+.btn-indigo {
+    @apply bg-indigo-600 text-white hover:bg-indigo-700 hover:text-white active:ring-indigo-500;
+}
+
+.btn-default {
+    @apply bg-gray-200 text-gray-700 hover:bg-gray-300 hover:text-gray-800 active:ring-gray-500;
+}

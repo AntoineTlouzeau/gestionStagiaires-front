@@ -1,0 +1,11 @@
+.peopleList{    
+    @apply overflow-x-auto whitespace-nowrap min-w-full w-full
+}
+
+.reviewsList ::-webkit-scrollbar {
+    width: 6px;
+}
+
+.reviewsList ::-webkit-scrollbar-track {
+    @apply my-3
+}

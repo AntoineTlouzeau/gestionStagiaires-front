@@ -1,0 +1,8 @@
+/* TAB CONTENT */
+.rdt_TableRow{
+    @apply bg-background-lighter dark:bg-background-dark text-black dark:text-white;
+}
+/* TAB HEADER */
+.rdt_TableCol{
+    @apply bg-background-lighter dark:bg-background-dark text-black dark:text-white;
+}
